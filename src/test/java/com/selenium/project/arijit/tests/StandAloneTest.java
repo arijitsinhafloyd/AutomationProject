@@ -36,6 +36,7 @@ public class StandAloneTest extends BaseTest {
 	    	//Login Verification
 	    	Assert.assertEquals(toast, "Login Successfully");
 	    	lp.disAppeartoast();
+		//Just to see how it works ci/cd
 
 	    	//Adding products to Cart
 	    	pc.getProducts(); //List<WebElement> prod= pc.getProducts();
