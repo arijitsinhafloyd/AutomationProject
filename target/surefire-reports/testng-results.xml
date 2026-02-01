@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-30T00:41:30 IST" name="Suite" finished-at="2026-01-30T00:42:57 IST" duration-ms="86928">
+    <groups>
+      <group name="ErrorValidations">
+        <method signature="ErrorValidation.ProductVerification()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" name="ProductVerification" class="com.selenium.project.arijit.tests.ErrorValidation"/>
+      </group> <!-- ErrorValidations -->
+      <group name="Purchase">
+        <method signature="StandAloneTest.getOrder(java.util.HashMap)[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" name="getOrder" class="com.selenium.project.arijit.tests.StandAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-01-30T00:41:30 IST" name="Error Validation" finished-at="2026-01-30T00:42:22 IST" duration-ms="52110">
+      <class name="com.selenium.project.arijit.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:41:30 IST" name="launchApplication" finished-at="2026-01-30T00:41:55 IST" duration-ms="24892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductVerification()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:41:55 IST" name="ProductVerification" finished-at="2026-01-30T00:41:57 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductVerification -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:41:57 IST" name="af" finished-at="2026-01-30T00:42:01 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:42:01 IST" name="launchApplication" finished-at="2026-01-30T00:42:14 IST" duration-ms="13400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:42:14 IST" name="loginErrorValidation" finished-at="2026-01-30T00:42:21 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.ErrorValidation@4082ba93]" started-at="2026-01-30T00:42:21 IST" name="af" finished-at="2026-01-30T00:42:22 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+      </class> <!-- com.selenium.project.arijit.tests.ErrorValidation -->
+    </test> <!-- Error Validation -->
+    <test started-at="2026-01-30T00:41:30 IST" name="Submit Order Test" finished-at="2026-01-30T00:42:57 IST" duration-ms="86928">
+      <class name="com.selenium.project.arijit.tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:41:31 IST" name="launchApplication" finished-at="2026-01-30T00:41:55 IST" duration-ms="23730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PlacedOrderinCart(java.util.HashMap)[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:41:55 IST" name="PlacedOrderinCart" data-provider="getData" finished-at="2026-01-30T00:41:58 IST" duration-ms="3601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Asdf@1234, product=IPHONE 13 PRO, email=contact@arijitsinha.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlacedOrderinCart -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:41:58 IST" name="af" finished-at="2026-01-30T00:42:01 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:01 IST" name="launchApplication" finished-at="2026-01-30T00:42:21 IST" duration-ms="19536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PlacedOrderinCart(java.util.HashMap)[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:21 IST" name="PlacedOrderinCart" data-provider="getData" finished-at="2026-01-30T00:42:22 IST" duration-ms="1409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Asdf@1234, product=ZARA COAT 3, email=sinha@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlacedOrderinCart -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:22 IST" name="af" finished-at="2026-01-30T00:42:23 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:23 IST" name="launchApplication" finished-at="2026-01-30T00:42:36 IST" duration-ms="13541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getOrder(java.util.HashMap)[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:36 IST" name="getOrder" data-provider="getData" finished-at="2026-01-30T00:42:43 IST" duration-ms="6701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Asdf@1234, product=IPHONE 13 PRO, email=contact@arijitsinha.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:43 IST" name="af" finished-at="2026-01-30T00:42:44 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:44 IST" name="launchApplication" finished-at="2026-01-30T00:42:50 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="getOrder(java.util.HashMap)[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:50 IST" name="getOrder" data-provider="getData" finished-at="2026-01-30T00:42:57 IST" duration-ms="7230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Asdf@1234, product=ZARA COAT 3, email=sinha@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method is-config="true" signature="af()[pri:0, instance:com.selenium.project.arijit.tests.StandAloneTest@69e153c5]" started-at="2026-01-30T00:42:57 IST" name="af" finished-at="2026-01-30T00:42:57 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+      </class> <!-- com.selenium.project.arijit.tests.StandAloneTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
